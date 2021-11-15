@@ -16,6 +16,7 @@ body header {
   background-color: #262626;
   margin-bottom: 20px;
   width: 100%;
+  /* position: fixed; */
 }
 
 .phan-dau button {
@@ -43,18 +44,22 @@ header .logo img {
   /* width: auto;
   height: auto; */
 }
+
 header {
   display: flex;
   justify-content: space-around;
   /* position: fixed; */
-  background-color: transparent;
+  /* position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+  background-color: transparent; */
   /* width: 100%; */
   padding: 0 20px;
   background-color: #fff;
   border-radius: 10px 10px;
   margin-left: 40px;
   margin: 0 40px;
-  margin-bottom: 100px;
+  margin-bottom: 500px;
 }
 
 header nav {
@@ -664,8 +669,8 @@ hr {
 .phan-6 .trai-6 .trai {
   background-color: whitesmoke;
   border-radius: 20px 10px;
-  width: 450px;
-  height: 350px;
+  width: 350px;
+  height: 390px;
   text-align: center;
 }
 .phan-6 .hinh-ong {
@@ -694,8 +699,8 @@ hr {
 .phan-6 .giua-6 .giua {
   background-color: whitesmoke;
   border-radius: 20px 10px;
-  width: 450px;
-  height: 350px;
+  width: 350px;
+  height: 390px;
   text-align: center;
 }
 .phan-6 .hinh-co {
@@ -724,8 +729,8 @@ hr {
 .phan-6 .phai-6 .phai {
   background-color: whitesmoke;
   border-radius: 20px 10px;
-  width: 450px;
-  height: 350px;
+  width: 350px;
+  height: 390px;
   text-align: center;
 }
 .phan-6 .hinh-co1 {
