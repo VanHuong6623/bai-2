@@ -44,7 +44,42 @@ header .logo img {
   /* width: auto;
   height: auto; */
 }
+.phan-0 {
+  margin-left: 200px;
+  font-size: 30px;
+  color: #fff;
+}
+.phan-0 .phan-0-1 {
+  display: flex;
+  align-items: center;
+}
+.phan-0 h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 1000;
+  font-size: 100px !important;
+}
+.phan-0 p {
+  margin: 25px 0;
+  color: #e5ebef !important;
+}
 
+.phan-0 h3 {
+  font-size: 20px;
+}
+.phan-0 button {
+  padding: 13px 30px;
+  margin: 10px 20px;
+  margin-left: 50px;
+  background-color: transparent;
+  border: 2px solid #f39c12;
+  background-color: #f39c12;
+  color: #333;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 7px;
+  font-weight: 800;
+  transition: all 0.5s;
+}
 header {
   display: flex;
   justify-content: space-around;
@@ -59,7 +94,7 @@ header {
   border-radius: 10px 10px;
   margin-left: 40px;
   margin: 0 40px;
-  margin-bottom: 500px;
+  margin-bottom: 40px;
 }
 
 header nav {
@@ -257,6 +292,10 @@ header nav ul {
   header nav a {
     margin-left: 500px;
   }
+  /* body {
+    height: auto;
+    weight: 400px;
+  } */
 }
 .content .hi {
   height: 50px;
